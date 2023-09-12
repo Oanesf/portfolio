@@ -1,0 +1,145 @@
+:root{
+    --bc-f: #141414;
+    --color-h4: #fff;
+    --bbh4-line: #5107ac;
+
+    --cl-ullia: #bbb ; 
+    --cl-ulliahover: #fff ; 
+
+    --bc-icon: rgba(255,255,255,0.2);
+    --cl-icon: #fff;
+    
+    --bc-iconh: #24262b;
+    --cl-iconh: #fff;
+}
+
+
+
+footer{
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer{
+    background-color: var(--bc-f);
+    padding: 70px 0;
+    height: 60vh;
+    width: 90vw;
+    border-radius: 30px;
+
+
+}
+
+
+.footer-container{
+    max-width: 1170px;
+    margin: auto;
+    
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 20px;
+    color: var(--color-h4);
+    margin:  35px 0;
+    text-transform: capitalize;
+    font-weight: 500;
+    position: relative;
+
+    border-bottom: 2px solid var(--bbh4-line);
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: var(--cl-ullia);
+    display: block;
+    transition: all 0.3s ease;
+}
+
+
+.footer-col ul li a:hover{
+    color: var(--cl-ulliahover);
+    padding-left: 8px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: var(--bc-icon);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: var(--cl-icon);
+    transition: all 0.3s ease;
+}
+
+/* .footer-col .social-links a:hover .img-svg{
+    color: var(--bc-iconh);
+    background-color: var(--cl-iconh);
+} */
+
+
+
+.img-svg{
+    width: 36px;
+    padding: 7px 0;
+
+}
+
+
+
+@media(max-width: 797px){
+    .footer{
+        height: 90vh;
+
+    }
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media(max-width: 634px){
+    .footer-row{
+        text-align: center;
+    }
+    .footer-col{
+        width: 100%;
+    }
+    .footer-col h4::before{
+        text-align: center;
+
+    }
+}
+
+
+
+
