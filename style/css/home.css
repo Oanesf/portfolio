@@ -8,7 +8,9 @@
     scroll-behavior: smooth;
     
 }
-
+body{
+    background: #474747;
+}
 
 :root{
     --bc-pre: #1e1e1e ;
