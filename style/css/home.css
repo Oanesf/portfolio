@@ -169,6 +169,17 @@
     font-weight: 500;
 }
 
+.p-title span{
+    color: #ffffff;
+
+    text-shadow: 0 0 5px rgb(135, 41, 129),
+    0 0 10px rgb(95, 28, 104),
+    0 0 15px rgb(37, 70, 236),
+    0 0 20px rgb(255, 28, 213), 
+    0 0 25px rgb(150, 57, 157);
+
+}
+
 .d-con{
     display: flex;
     flex-wrap: wrap;
