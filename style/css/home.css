@@ -17,7 +17,7 @@ body{
 }
 
 :root{
-    --bc-pre: #1e1e1e ;
+    --bc-pre: #0d061a ;
 }
 
 /* ________________________ */
@@ -52,18 +52,18 @@ body{
 section{
     display: flex;
     justify-content: center;
-    margin:  1rem 0;
+    /* margin:  1rem 0; */
 }
 /* ________________________ */
 
 .present{
-    width: 90vw;
+    /* width: 90vw; */
     min-height: auto;
     background: var(--bc-pre) ;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 
-    border-radius: 30px;
-    border: 5px solid #6314da;
+    /* border-radius: 30px; */
+    /* border: 5px solid #6314da; */
 
 
 }
@@ -144,14 +144,14 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: var(--bc-pre) ;
+    background: #12061a ;
     padding: 40px;
-    width: 90vw;
+    /* width: 90vw; */
     min-height: auto;
 
-    border-radius: 30px;
+    /* border-radius: 30px; */
 
-    border: 5px solid #6314da;
+    /* border: 5px solid #6314da; */
 
 }
 .p-title{
