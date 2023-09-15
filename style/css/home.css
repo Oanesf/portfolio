@@ -200,8 +200,10 @@
     flex-direction: column;
     align-items: center;
     box-shadow: 0 0 5px rgb(135, 41, 129),
-    0 0 10px rgb(95, 28, 104), 0 0 10px rgb(51, 61, 112),
-    0 0 10px rgb(189, 16, 157), 0 0 10px rgb(150, 57, 157);
+    0 0 10px rgb(95, 28, 104),
+    0 0 15px rgb(51, 61, 112),
+    0 0 20px rgb(189, 16, 157), 
+    0 0 25px rgb(150, 57, 157);
 
 }
 
