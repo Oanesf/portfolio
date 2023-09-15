@@ -85,6 +85,10 @@
 
 .title span{
     color: #6e26e9;
+    text-shadow: 0 0 10px #5820aa,
+    0 0 20px #5820aa,
+    0 0 40px  #5820aa,
+    0 0 60px  #5820aa;
 }
 
 .btn-1{
