@@ -8,13 +8,6 @@
     scroll-behavior: smooth;
     
 }
-body{
-    /* background: #474747; */
-    /* background: #a63aff; */
-    background: linear-gradient(360deg, #1cb2dc, #23b4dc);
-    
-
-}
 
 :root{
     --bc-pre: #0d061a ;
@@ -47,13 +40,7 @@ body{
     animation-fill-mode: both;
 }
 
-/* ________________________ */
 
-section{
-    display: flex;
-    justify-content: center;
-    /* margin:  1rem 0; */
-}
 /* ________________________ */
 
 .present{
